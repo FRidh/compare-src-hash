@@ -7,8 +7,8 @@
 
 let
   src = fetchGit {
-    url = "";
-    ref = "";
-    rev = "";
+    url = "https://github.com/FRidh/compare-src-hash";
+    ref = "master";
+    rev = "88b136e01d42a06b346aa9ec97e7d802a175a8c8";
   };
 in import src {inherit nixpkgs;}
